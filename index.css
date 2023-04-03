@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15vw 3vw 15vw;
+  border: 1px solid #000;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.menu > li {
+  padding: 0 1vw;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu > li > a:active {
+  color: #282277;
+}
+
+.menu > li > a:hover {
+  color: #226a77;
+}
+
+.separator {
+  border-right: 1px solid #000;
+}
+
+.page-title {
+  padding: 0 1vw;
+}
+
+.booklist-title {
+  text-align: center;
+  margin: 0 15vw 2vw 15vw;
+}
+
+.title-author-box {
+  text-align: center;
+  margin: 0 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-author {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5vw;
+}
+
+.books-container {
+  border: 1px solid #000;
+  margin: 0 15vw 3vw 15vw;
+}
+
+#even {
+  background-color: #d3d3d3;
+}
+
+hr {
+  margin: 0 40vw;
+}
+
+#btn {
+  align-self: flex-end;
+}
+
+.contact-box {
+  margin: 0 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin: 3vw 15vw 0 15vw;
+  border: 1px solid #000;
+  padding: 0 1vw;
+}
+
+.hide {
+  display: none;
+}
