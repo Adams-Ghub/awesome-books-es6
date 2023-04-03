@@ -1,4 +1,5 @@
 import { Book } from "./modules/book.js";
+import { DateTime } from "./node_modules/luxon/src/luxon.js";
 
 const addBtn = document.querySelector('#btn');
 const titleInput = document.querySelector('#title');
@@ -6,10 +7,15 @@ const authorInput = document.querySelector('#author');
 const listPage = document.querySelector('#list');
 const addPage = document.querySelector('#add');
 const contactPage = document.querySelector('#contact');
+const timeSection = document.querySelector('.time-section')
+const time = document.createElement('p')
 
 
 const theBook = new Book()
+const today = DateTime.now()
+time.innerText = today.toLocaleString(DateTime.DATE_HUGE);
 
+timeSection.appendChild(time)
 
 addBtn.addEventListener('click', () => {
     let size;

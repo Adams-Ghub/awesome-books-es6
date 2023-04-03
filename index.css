@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0 15vw 3vw 15vw;
+  margin: 0 15vw 0vw 15vw;
   border: 1px solid #000;
 }
 
@@ -71,6 +71,13 @@ header {
 .books-container {
   border: 1px solid #000;
   margin: 0 15vw 3vw 15vw;
+}
+
+.time-section {
+  margin: 0 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 #even {
