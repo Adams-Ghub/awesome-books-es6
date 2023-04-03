@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0 15vw 0vw 15vw;
+  margin: 0 15vw;
   border: 1px solid #000;
 }
 
