@@ -12,13 +12,13 @@ domElement.timeSection.appendChild(domElement.time);
 domElement.addBtn.addEventListener('click', () => {
   let size;
   if (theBook.books.length === 0) {
-      size = 0;
+    size = 0;
   } else {
-      size = theBook.books.length;
+    size = theBook.books.length;
   }
   theBook.addBooks(domElement.titleInput.value, domElement.authorInput.value, size);
   domElement.titleInput.value = '';
- domElement.authorInput.value = '';
+  domElement.authorInput.value = '';
 });
 
 domElement.listPage.addEventListener('click', () => {
